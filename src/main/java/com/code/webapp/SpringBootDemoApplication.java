@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.code.webapp.service.EmployeeServiceInterface;
 
 @EnableAutoConfiguration(exclude = {ErrorMvcAutoConfiguration.class})
-@ComponentScan("com.hendi.webapp")
+@ComponentScan("com.code.webapp")
 public class SpringBootDemoApplication {
 
 	@Autowired
